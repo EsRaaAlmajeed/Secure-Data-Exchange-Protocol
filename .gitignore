@@ -1,0 +1,33 @@
+# Compiled Java files
+*.class
+
+# Build output
+/build/
+/dist/
+
+# NetBeans
+/nbproject/private/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Private keys and environment files
+.env
+.env.*\
+
+# Generated build files
+/build/
+/dist/
+
+# Potentially sensitive keys and test data
+encryptkey.txt
+publicKey.txt
+alll.txt
+hello.txt
+
+# NetBeans private settings
+/nbproject/private/
