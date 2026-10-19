@@ -1,60 +1,56 @@
 # 🔐 Secure Data Exchange Protocol
 
-A Java-based university graduation project exploring secure data exchange between client and server applications using cryptographic algorithms, digital signatures, data integrity concepts, and TCP/IP communication.
+<h3 align="center">A Java-Based Graduation Project Exploring Secure Communication</h3>
 
-## 📌 Table of Contents
+<p align="center">
+  A client-server application demonstrating cryptographic algorithms, data integrity concepts, digital signatures, and TCP/IP communication.
+</p>
 
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Cryptographic Algorithms](#cryptographic-algorithms)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Security Disclaimer](#security-disclaimer)
-- [Author](#author)
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/TCP%2FIP-Client--Server-2563EB?style=for-the-badge" alt="TCP/IP" />
+  <img src="https://img.shields.io/badge/Cryptography-Educational-7C3AED?style=for-the-badge" alt="Cryptography" />
+</p>
 
-## 📖 Overview
+---
 
-This project was developed as a university graduation project to explore the principles of secure communication and cryptographic operations in a client-server environment.
+## 📌 About the Project
 
-It combines a Java-based graphical interface with networking functionality and cryptographic components to demonstrate concepts related to confidentiality, data integrity, and digital signatures.
+**Secure Data Exchange Protocol** is a university graduation project developed to explore secure communication between client and server applications.
 
-## ✨ Features
+The application combines a Java-based graphical interface, network communication, and cryptographic components to demonstrate concepts related to confidentiality, data integrity, and digital signatures.
 
-- **Client-Server Communication:** Communication between client and server using TCP/IP.
-- **Cryptographic Operations:** Demonstrations of cryptographic algorithms implemented in the project.
-- **Data Integrity:** Exploration of mechanisms for checking whether data has been modified.
-- **Digital Signatures:** Demonstration of digital signature concepts.
-- **Graphical User Interface:** A graphical interface for interacting with the application.
+## ✨ Key Features
 
-## 🛠️ Technologies
-
-| Technology | Purpose |
+| Feature | Description |
 |---|---|
-| Java | Application development |
-| TCP/IP | Client-server communication |
-| Java Swing GUI framework | User interface |
-| RSA | Public-key cryptography |
-| ElGamal | Public-key cryptography |
-| Serpent | Symmetric-key encryption |
-| MD5 | Hashing demonstration |
+| 🌐 Client-Server Communication | TCP/IP-based communication |
+| 🔑 Cryptographic Algorithms | Demonstrations of RSA, ElGamal, and Serpent |
+| 🛡️ Data Integrity | Exploration of data integrity verification |
+| ✍️ Digital Signatures | Demonstration of digital signature concepts |
+| 🖥️ Graphical Interface | GUI for interacting with the application |
 
-## 🔑 Cryptographic Algorithms
+## 🧰 Tech Stack
 
-The project explores the following algorithms:
+<p>
+  <img src="https://img.shields.io/badge/Java-Programming%20Language-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Networking-TCP%2FIP-2563EB?style=flat-square" alt="TCP/IP" />
+  <img src="https://img.shields.io/badge/RSA-Public--Key%20Cryptography-7C3AED?style=flat-square" alt="RSA" />
+  <img src="https://img.shields.io/badge/ElGamal-Public--Key%20Cryptography-0D9488?style=flat-square" alt="ElGamal" />
+  <img src="https://img.shields.io/badge/Serpent-Symmetric%20Cipher-B45309?style=flat-square" alt="Serpent" />
+  <img src="https://img.shields.io/badge/MD5-Hash%20Function-64748B?style=flat-square" alt="MD5" />
+</p>
 
-- **RSA:** A public-key cryptographic algorithm.
-- **ElGamal:** A public-key cryptographic scheme.
-- **Serpent:** A symmetric-key block cipher.
-- **MD5:** A hash function included for educational demonstration.
+## 🔐 Cryptographic Components
 
-> Note: MD5 is a hashing algorithm, not an encryption algorithm. It is considered cryptographically broken for collision-resistant applications and should not be used for modern security-sensitive integrity verification.
+- **RSA:** Public-key cryptography.
+- **ElGamal:** Public-key cryptography.
+- **Serpent:** Symmetric-key block cipher.
+- **MD5:** Hashing algorithm included for educational demonstration.
 
-The actual role and configuration of each algorithm depend on its implementation in the source code.
+> **Security note:** MD5 is not an encryption algorithm and is unsuitable for modern collision-resistant integrity verification. The project's cryptographic implementation has not been independently audited.
 
 ## 📂 Project Structure
-
-The repository contains the Java source code and project configuration files.
 
 ```text
 Secure-Data-Exchange-Protocol/
@@ -73,44 +69,56 @@ Secure-Data-Exchange-Protocol/
 └── README.md
 ```
 
-*The structure above highlights selected files; other source files may also be present.*
+*Selected files are shown for illustration; the repository may contain additional source files.*
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Java Development Kit (JDK) compatible with the project configuration.
-- Apache Ant or a compatible build environment if required by the project.
-- NetBeans IDE is recommended because the repository contains NetBeans project configuration files.
+- A JDK compatible with the project configuration.
+- NetBeans IDE is recommended.
+- Apache Ant may be required for building the project.
 
-### Run the Project
+### Installation
 
-1. Clone the repository:
+**1. Clone the repository**
 
-   ```bash
-   git clone https://github.com/EsRaaAlmajeed/Secure-Data-Exchange-Protocol.git
-   ```
+```bash
+git clone https://github.com/EsRaaAlmajeed/Secure-Data-Exchange-Protocol.git
+```
 
-2. Open the project in NetBeans IDE.
+**2. Open the project**
 
-3. Configure a compatible JDK for the project.
+Open the cloned project in NetBeans IDE and configure the appropriate JDK.
 
-4. Build and run the application using the IDE.
+**3. Build and run**
 
-*The exact Java version and runtime configuration should be confirmed against the project settings.*
+Build and run the application through the IDE using the project's existing configuration.
 
-## 🔒 Security Disclaimer
+## 🎓 Project Purpose
 
-This project was created for educational purposes as a university graduation project. It has not been independently audited for security and should not be considered production-ready.
+This project provided practical experience with:
 
-Do not use it to protect sensitive data without a thorough security review and appropriate modernization of its cryptographic components.
+- Java application development.
+- Client-server networking concepts.
+- Cryptographic algorithms and their roles.
+- Data integrity and digital signature concepts.
+- Integrating networking and cryptographic components in a GUI application.
+
+## ⚠️ Disclaimer
+
+This project was developed for educational purposes as a university graduation project. It is not presented as a production-ready secure communication system.
+
+A thorough security review is required before using the implementation with sensitive data.
 
 ## 👩‍💻 Author
 
 **Esraa Al-abd Al-Majeed**
 
-- GitHub: [@EsRaaAlmajeed](https://github.com/EsRaaAlmajeed)
+[GitHub Profile](https://github.com/EsRaaAlmajeed)
 
 ---
 
-*Developed as a university graduation project in Informatics Engineering.*
+<p align="center">
+  <i>University Graduation Project · Informatics Engineering</i>
+</p>
